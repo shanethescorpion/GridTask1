@@ -1,28 +1,122 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-    font-family: 'Times New Roman', Times, serif;
-    min-height: 100vh;
+  font-family: 'Times New Roman', Times, serif;
+  min-height: 100vh;
 }
 
 .header {
-    display: grid;
-    gap: 50px 2px;
-    grid-template-columns: auto auto auto auto;
-    background-color: white
-  }
-  .box {
-    background-color: gold;
-    text-align: left;
-    padding: 20px;
-    grid-column: 1/2;
-    text-align: left;
-  }
-  .box1 {
-    background-color: pink;
-    text-align: left;
-    
-  }
+  display: grid;
+  gap: 5px 5px;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto;
+  background-color: white;
+}
+
+.box {
+  background-color: gold;
+  text-align: left;
+  padding-top: 20px;
+  padding: 0;
+  grid-column: 1/7;
+  height: 100px;
+  font-size: 30px;
+  gap: 5px;
+}
+
+.box1 {
+  background-color: pink;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5px;
+  font-size: 30px;
+}
+
+.contentContainer{
+  display: grid;
+  gap: 5px;
+}
+
+.posttitle{
+  background-color: skyblue;
+  padding: 0px 550px;
+  margin: 0;
+  margin-top: 5px;
+  font-size: 30px;
+  margin-left: 0;
+  text-align: left;
+  display: grid;
+}
+
+main{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5px;
+}
+
+.bar{
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.sidebar{
+  padding: 70px 10px;
+  background-color: orange;
+  font-size: 30px;
+}
+
+.ads{
+  background-color: green;
+  padding: 70px 10px;
+  font-size: 30px;
+}
+
+.others{
+  padding: 70px 10px;
+  background-color: violet;
+  font-size: 30px;
+}
+
+.metaContainer{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5px;
+}
+
+.postmeta{
+  background-color: rgb(107, 233, 191);
+  margin: 0;
+  padding: 200px 5px;
+  text-align: left;
+  font-size: 30px;
+}
+
+.content{
+  display: grid;
+  gap: 5px;
+}
+
+.mainContent{
+  background-color: rgb(221, 220, 220);
+  margin: 0;
+  font-size: 30px;
+}
+
+.mainContentImage{
+  background-color: yellow;
+  font-size: 30px;
+}
+
+footer{
+  background-color: rgb(129, 101, 101);
+  padding: 30px 10px;
+  margin-top: 5px;
+  height: 94px;
+  font-size: 30px;
+}
