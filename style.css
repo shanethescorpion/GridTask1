@@ -43,13 +43,12 @@ body {
 
 .posttitle{
   background-color: skyblue;
-  padding: 0px 550px;
+  padding: 30px 220px;
   margin: 0;
   margin-top: 5px;
   font-size: 30px;
   margin-left: 0;
   text-align: left;
-  display: grid;
 }
 
 main{
