@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.header{
+    display: grid;
+    grid-template-rows: auto;
+    gap: 10px;
+    background-color: gold;
+    padding: 10px;
+}
+.nav {
+    grid-template-rows: auto;
+    gap: 10px;
+    background-color: gold;
+    padding: 10px;
+
+}
